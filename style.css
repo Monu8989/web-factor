@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+.cont{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(38,38,150);
+background: linear-gradient(90deg, rgba(38,38,150,1) 0%, rgba(33,35,36,1) 0%, rgba(118,191,179,1) 54%);
+}
+.card{
+    width: 70%;
+    height: 80%;
+    background-color: rgb(226,239,242);
+    border-radius: 15px;
+}
+.nav{
+    width: 100%;
+    height:auto;
+    background-color: white;
+}
+.one{
+ width: auto;
+ height: auto;
+ color: aqua;
+ margin-left: 10px;
+ border-bottom: 1px solid rgba(0, 0, 0, 0.479);
+}
+.two{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.479);
+}
+.left{
+    width:40%;
+    height: auto;
+}
+.right{
+    width: 60%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.right span{
+    width: 50px;
+    height: auto;
+    display: flex;
+    color: rgb(107, 216, 240);
+}
+.right span i{
+    font-size: 20px;
+    margin:2px;
+}
+
+.right h1{
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.582);
+}
+.right button{
+    width: 200px;
+    height:30px;
+    background:none;
+    border: 1px solid  rgb(36, 100, 115);
+    border-radius: 10px;
+    font-size: 20px;
+}
+.left img{
+    width: 180px;
+}
+.three{
+    width: 100%;
+    height:60px;
+   display: flex;
+   align-items: center;
+   justify-content:space-between;
+
+}
+.btn{
+    width:50px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+
+}
+.btn button{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(36, 100, 115);
+    color: white;
+    border-radius: 30px;
+}
+.btn2{
+    width:50px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px;
+}
+.btn2 button{
+    width: 30px;
+    height: 30px;
+    background-color: rgb(36, 100, 115);
+    color: white;
+    border-radius: 30px;
+}
+.ul-sec ul{
+    width:900px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    list-style: none;
+}
+.ul-sec ul a{
+    text-decoration: none;
+    color:rgba(0, 0, 0, 0.619);
+    font-size: 20px;
+}
+.box{
+    width: 100%;
+    height:50vh;
+    display: flex;
+    background-color: rgb(226,239,242);
+}
+.left2{
+    width: 50%;
+    height: auto;
+    display: flex;
+    align-items:start;
+    /* justify-content: center; */
+    flex-direction: column;
+    padding:20px;
+}
+.left2 h1{
+    font-size: 50px;
+    /* text-align: center; */
+}
+.left2 ul{
+    font-size: 20px;
+    margin:13px;
+    margin-top:20px;
+}
+.left2 button{
+    width: 150px;
+    height:40px;
+    background-color: rgb(12,123,147);
+    border-radius: 15px;
+    border: none;
+    text-align: center;
+    color: white;
+    margin-top: 15px;
+}
+.img-sec{
+    width: 50%;
+    height: auto;
+    display: flex;
+    background-color: rgb(226,239,242);
+    align-items: center;
+    justify-content: center;
+}
+.img-sec img{
+    width: 450px;
+    
+}
+.header{
+    width: 100%;
+    height:auto;
+}
+.header button{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: rgb(12,123,147);
+    color: white;
+    font-size: 20px;
+    position: relative;
+    left:90%;
+}
+
+
+
+
+
+/* responsive css with 480px */
+
+@media (max-width:480px) {
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    .cont{
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .card{
+        width: 80%;
+        height: auto;
+    }
+    .nav{
+        width: 100%;
+        height: auto;
+    }
+    .two{
+        width: 100%;
+    }
+    .right span{
+        display: none;
+    }
+    .right button{
+        display: none;
+    }
+    .right h1{
+        font-size: 14px;
+    }
+    .three{
+        width: 100%;
+    }
+    .ul-sec{
+        display: none;
+    }
+    .box{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+    .left2{
+        width: 100%;
+        height: auto;
+    }
+    .img-sec{
+        width: 100%;
+        height: auto;
+        margin: 0;
+        padding: 0;
+
+    }
+    .img-sec img{
+        width:350px;
+    }
+    .header {
+        position: relative ;
+        left:0;
+        margin-right:50px;
+    }
+    
+    
+}
